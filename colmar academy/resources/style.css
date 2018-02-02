@@ -1,0 +1,389 @@
+html{
+	font-size: 20px;
+	width: auto;
+}
+body{
+	width: auto;
+	margin: 0 auto;
+	background-color: black;
+}
+
+
+@@font-face {
+	src: url('https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet');
+	font-family: 'Open Sans', sans-serif;
+	src:url('https://fonts.googleapis.com/css?family=Roboto+Condensed:700'rel='stylesheet');
+	font-family: 'Roboto Condensed'
+}
+div {
+	display: block;
+}
+/* header */
+header {
+	display: flex;
+	justify-content: space-between;
+	height: 64px;
+	background-color: #CFC8C4;
+	width: 100%;
+	align-items: center;
+
+}
+.logo{
+	display: flex;
+	padding-left: 24px;
+}
+p{
+	display: inline-flex;
+	align-items: center;
+}
+.colmar {
+	display: inline-flex;
+	align-self: center;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	color: black;
+	padding-left: 4px;
+}
+.academy {
+	display: inline-flex;
+	align-self: center;
+	font-family: 'Open Sans';
+	color: #4A4A4A;
+	padding-left: 1px;
+}
+#mobile{
+	display: none;
+}
+
+#desktop {
+	margin-right: 36px;
+}
+#desktop ul li {
+	display: inline-flex;
+	padding-left: 16px;
+	align-content: left;
+	font-family: "Open sans";
+	font-size: 18px;
+}
+nav a{
+	color:#4A4A4A;
+	text-decoration: none;
+}
+
+/* main banner */
+#banner {
+	display: flex;
+	background-color: #3F8782;
+	width: auto;
+}
+.img-holder{
+	width: 60%;
+	padding: 32px 24px;
+}
+.img-holder img{
+	width: 100%;
+}
+.banner-content{
+
+}
+.banner-content h1{
+	font-size: 2rem;
+	align-content: center;
+	margin-top: 25%;
+}
+.banner-content h3{
+	font-size: 1.5rem;
+	padding-top: 24px;
+
+}
+.banner-content h1, h3 {
+	font-family: "Roboto Condensed";
+	font-weight: bold;
+	padding-left: 24px;
+	color: #133645;
+}
+button{
+	display: flex;
+	justify-content: center;
+	font-family: "Roboto Condensed";
+	align-content: center;
+	background-color: #133645;
+	color: lightgrey;
+	width: 60%;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 24px;
+	padding: 12px 0 12px 0;
+	margin-left: 24px;
+	border: none;
+}
+button a{
+	color: lightgrey;
+	text-decoration: none;
+}
+
+/* practice */
+.practice {
+	display: flex;
+	background-color: #CFB7A2;
+	width: 100%;
+}
+.practice-img-holder{
+	flex-direction: column;
+	width: 56%;
+	padding: 32px 24px;
+	border-right: 1px solid #133645;
+}
+.practice-img-holder img{
+	width: 100%;
+}
+.practice-img-content{
+	display: flex;
+	font-family: "roboto condensed";
+	color:#133645;
+}
+.practice-img-content h1{
+	margin-top: 32px;
+	font-size: 46px;
+	font-weight: bold;
+}
+.practice-img-content h2{
+	margin-top: 24px;
+	font-size: 16px;
+	width: 88%;
+}
+.practice-img-content h3{
+	margin: 32px auto;
+	font-size: 14px;
+	float: left;
+}
+.practice video{
+	width: 100%;
+}
+
+.practice-supp{
+	display: flex;
+	flex-direction: column;
+	padding-top: 16px;
+	width: 44%;
+}
+
+.supp-item{
+	width: 100%;
+	display: flex;
+}
+.supp-item1{
+	width: 100%;
+	display: flex;
+	background-color: #FFBC67
+}
+
+.orientation{
+	display: flex;
+	flex-flow: wrap column;
+	font-family: "Roboto Condensed";
+	justify-content: center;
+	padding-left: 16px;
+	width: 65%;
+}
+.orientation h2, h4 {
+	color: #133645;
+}
+.orientation h2{
+	font-size: 36px;
+	font-weight: bold;
+	padding: 4px;
+}
+.orientation h4{
+	font-size: 20px;
+	padding: 4px;
+}
+.orientation a{
+	font-size: 16px;
+	color: teal;
+	padding: 4px;
+}
+.supp-img-holder{
+	width: 35%;
+	padding: 16px;
+}
+
+.img-info{
+	width: 100%;
+	height: auto;
+}
+.img-info-mobile{
+	display:none;
+}
+/* learning */
+.learning{
+	display: flex;
+	flex-wrap: flex;
+	padding: 0 72px;
+	background-color: #3F8782;
+	font-family: "roboto condensed";
+	justify-content: center;
+}
+.learning-main{
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+
+}
+.learning h1{
+	color: #133645;
+	font-size: 48px;
+	font-weight: bold;
+	padding: 32px 0 16px 0;
+	text-align: center;
+}
+
+.learning-container{
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+}
+
+.learning-content img{
+	padding-bottom: 16px;
+	height: auto;
+	width: 100%;
+}
+.learning-mobile{
+	display:none;
+}
+
+.learning-content{
+	background-color: white;
+	width: 30%;
+	padding-bottom: 24px;
+	margin: 16px;
+	color: #d94d3d;
+}
+
+.learning-content h2, h3{
+	padding-left: 16px;
+	padding-top: 8px;
+}
+.learning-content h1{
+	font-size: 30px;
+	text-align: left;
+	padding-left: 16px;
+	color: #133645;
+}
+
+/*exhibit*/
+
+.thesis {
+	display: flex;
+	background-color: #CFB7A2;
+	width: 100%;
+	border-bottom: 1px solid lightgrey;
+}
+.thesis h1{
+	font-family: "Roboto Condensed";
+	text-align: center;
+	font-size: 48px;
+	color: #133645;
+}
+.thesis-banner{
+	width: 100%;
+	text-align: center;
+	background-color: #CFB7A2;
+	padding-top:32px;
+	font-family: "Roboto Condensed";
+	font-size: 48px;
+	color: #133645;
+	font-weight: bold;
+}
+.thesis-img-holder{
+	flex-direction: column;
+	width: 60%;
+	padding: 32px 24px;
+}
+.thesis-img-content{
+	display: flex;
+	font-family: "roboto condensed";
+	color:#4A4A4A;
+}
+.thesis-img-content h1{
+	margin-top: 32px;
+	font-size: 48px;
+}
+.thesis-img-content h2{
+	margin-top: 24px;
+	font-size: 16px;
+	width: 88%;
+}
+.thesis-img-content h3{
+	margin: 32px auto;
+	font-size: 14px;
+	float: left;
+}
+.thesis video{
+	width: 100%;
+}
+.thesis img {
+	width: 100%;
+}
+.thesis-supp{
+	display: flex;
+	flex-direction: column;
+	padding-top: 32px;
+	width: 40%;
+}
+.thesis-item1{
+	width: 100%;
+	display: flex;
+	background-color: lightgrey
+}
+.thesis-item{
+	width: 100%;
+	display: flex;
+
+}
+
+.fisma{
+	display: flex;
+	flex-flow: wrap column;
+	font-family: "Roboto Condensed";
+	justify-content: center;
+	padding-left: 32px;
+}
+
+.fisma h2{
+	font-size: 36px;
+	font-weight: bold;
+	padding: 4px;
+	color: #133645;
+}
+.fisma h4{
+	font-size: 20px;
+	padding: 4px;
+	color: #3F8782;
+}
+.fisma a{
+	font-size: 16px;
+	color: teal;
+	padding: 4px;
+}
+
+
+
+/*footer*/
+footer{
+	display: flex;
+	justify-content: space-between;
+	background-color: #4A4A4A;
+	padding: 16px 24px;
+}
+footer h3{
+	color: white;
+}
+footer a{
+	padding-left: 10px;
+	color: white;
+	font-family: "Roboto Condensed";
+}

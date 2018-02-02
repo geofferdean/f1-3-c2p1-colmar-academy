@@ -1,0 +1,104 @@
+@media only screen and (max-width: 710px){
+	#desktop{
+		display: none
+	}
+	#mobile{
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		padding: 0;
+	}
+	#banner{
+		width: 100%;
+		flex-direction: column;
+	}
+	.img-holder{
+		width: 100%;
+		padding: 0;
+	}
+	.img-holder img{
+		width: 100%;
+		overflow: hidden;
+	}
+	.banner-content{
+		display: flex;
+		justify-content: center;
+		flex-flow: column;
+		align-items: center;
+		position: relative;
+		text-align: center;
+		padding: 32px 16px;
+	}
+	.banner-content h1{
+		margin-top: 0;
+	}
+	.practice{
+		margin: 0 auto;
+		padding: 0;
+	}
+	.practice-supp{
+		width: 100%;
+		flex-flow: column;
+		padding: 16px 16px 32px 16px;
+		margin: 0;
+	}
+
+	.supp-item{
+		display: flex;
+		flex-flow: column;
+		border: none;
+	}
+	.supp-item1{
+		display: flex;
+		flex-flow: column;
+		border: none;
+		background-color:#CFB7A2;
+	}
+	.supp-img-holder{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	.orientation{
+		text-align: left;
+	}
+	.orientation a{
+		margin-bottom: 64px;
+	}
+	.practice-img-holder{
+		display:none;
+	}
+	.img-info{
+		display: none;
+	}
+	.img-info-mobile{
+		display: inline-block;
+		width: 100%;
+		height: auto;
+		padding: 0;
+	}
+	.learning-content{
+		display: none;
+	}
+	.learning-mobile{
+		display: flex;
+		flex-flow: column;
+		padding: 24px 16px;
+		margin-bottom: 8px;
+		font-family: "Roboto Condensed";
+		font-size: 36px;
+		background-color: #CFC8C4;
+		width: 100%;
+		justify-content: center;
+	}
+	.thesis-img-holder{
+		width: 100%;
+	}
+	.thesis-supp{
+		display: none;
+	}
+	.thesis-img-content{
+		display: none;
+	}
+}
